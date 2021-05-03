@@ -18,7 +18,7 @@ public class HelloController {
                                       TimeUnit.MILLISECONDS.toMinutes(millis),
                                       TimeUnit.MILLISECONDS.toSeconds(millis) -
                                       TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(millis)));
-        return String.format("Hello 2 commit, Spring! (up %s, %s)", uptime, System.getenv("BUILD_PROFILE"));
+        return String.format("Hello 3 commit, Spring! (up %s, %s)", uptime, System.getenv("BUILD_PROFILE"));
     }
 
 }
